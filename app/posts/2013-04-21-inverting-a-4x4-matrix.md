@@ -210,5 +210,3 @@ LU decomposition algorithm has a lower exponent (somewhere around 2.5
 according to Wikipedia), so it will probably be faster for larger
 matrices. But then again I'm doing WebGL, so I'm only interested in
 4×4 matrices.
-
-*Next week on this blog: Writing Javascript in C-style or in functional style.*

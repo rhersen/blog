@@ -56,11 +56,14 @@ down to the <code>props</code> structure of the <code>Clock</code> component:
 ```javascript
 var Clock = React.createClass({
    getAngle: function (cycleTime) {
-      return 360 * (this.getMillis() % cycleTime) / cycleTime;
+      return 360 *
+             (this.getMillis() % cycleTime) /
+             cycleTime;
    },
 
    getMillis: function () {
-      return this.props.millis - this.props.timezoneOffset * 60000;
+      return this.props.millis -
+             this.props.timezoneOffset * 60000;
    },
 
    render: function () {

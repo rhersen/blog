@@ -4,6 +4,8 @@
     <link rel="stylesheet" type="text/css" href="<%= css %>" media="all"/>
     <link rel="alternate" type="application/rss+xml" title="<%= site.title %> - feed" href="/index.xml"/>
     <title><%= site.title %><%= post ? ' - '+post.title() : '' %></title>
+    <meta content="true" name="HandheldFriendly">
+    <meta content="width=device-width, height=device-height, user-scalable=no" name="viewport">
     <meta charset="utf-8">
 </head>
 <body>
